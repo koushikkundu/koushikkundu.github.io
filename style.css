@@ -1,0 +1,215 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+}
+
+header {
+    background: linear-gradient(135deg, #1e1e1e 0%, #ff5722 100%); /* Darker gradient */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f4f4f4;
+    transform: scale(1.1);
+}
+
+/* Section Styles */
+section {
+    padding: 40px;
+    margin: 20px 0;
+    background: #1e1e1e; /* Dark background for sections */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #ff5722; /* Accent color for headings */
+    border-bottom: 2px solid #ff5722; /* Accent color for border */
+    padding-bottom: 10px;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.category {
+    flex: 1 1 30%; /* Adjusted to allow for better alignment */
+    margin: 10px;
+    min-width: 250px; /* Ensures a minimum width for smaller screens */
+}
+
+.category h4 {
+    background: #ff5722; /* Accent color for category headers */
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.category ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #444; /* Darker border */
+}
+
+/* Project Styles */
+.project-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.project {
+    background: #1e1e1e; /* Dark background for projects */
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.project h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #ffffff; /* Light text color for project titles */
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 10px;
+    background: #35424a; /* Dark background for links */
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.project-link:hover {
+    background: #ff5722; /* Accent color on hover */
+    transform: scale(1.05);
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #1e1e1e; /* Dark background for footer */
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Connect with Me Styles */
+#contact {
+    text-align: center;
+    padding: 40px;
+    background: #1e1e1e; /* Dark background for contact section */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    margin: 20px 0;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-links li {
+    margin: 10px;
+}
+
+.social-links a {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background: #35424a; /* Dark background for social links */
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 50%; /* Make icons circular */
+    text-decoration: none;
+    transition: background 0.3s, transform 0.3s;
+    font-size: 1.5em; /* Increase icon size */
+    margin: 10px; /* Add margin for spacing */
+    width: 60px; /* Set width for circular effect */
+    height: 60px; /* Set height for circular effect */
+}
+
+.social-links a i {
+    font-size: 1.5em; /* Increase icon size */
+    line-height: 1; /* Reset line-height for better centering */
+}
+
+.social-links a:hover {
+    background: #ff5722; /* Accent color on hover */
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .skills {
+        flex-direction: column;
+    }
+
+    .category {
+        flex: 1 1 100%; /* Full width on smaller screens */
+        margin: 10px 0; /* Adjust margin for better spacing */
+    }
+
+    .social-links a {
+        width: 50px; /* Adjust width for smaller screens */
+        height: 50px; /* Adjust height for smaller screens */
+        line-height: 50px; /* Center icon vertically */
+    }
+}
