@@ -1,20 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title>Koushik Kundu</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-  </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koushik Kundu - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.icons.bio/icons.css">
+</head>
+
+<body>
+    <header>
+        <h1>Koushik Kundu</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to My Portfolio</h2>
+        <div id="joke-container">
+            <p id="joke"></p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+        </p>
+        <h3>Skills</h3>
+        <div class="skills">
+            <div class="category">
+                <h4>Programming Languages</h4>
+                <ul>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <div class="category">
+                <h4>Python Libraries</h4>
+                <ul>
+                    <li>NumPy</li>
+                    <li>Pandas</li>
+                    <li>Seaborn</li>
+                    <li>Matplotlib</li>
+                    <li>Scikit-learn</li>
+                </ul>
+            </div>
+            <div class="category">
+                <h4>Core Concepts</h4>
+                <ul>
+                    <li>Data Structures & Algorithms</li>
+                    <li>Machine Learning</li>
+                    <li>Operating Systems</li>
+                    <li>Computer Networks</li>
+                    <li>Database Management Systems</li>
+                </ul>
+            </div>
+            <div class="category">
+                <h4>Web Technologies & Database</h4>
+                <ul>
+                    <li>JDBC</li>
+                    <li>JSP</li>
+                    <li>Java Beans</li>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+            <div class="category">
+                <h4>Tools & Technologies</h4>
+                <ul>
+                    <li>Git & GitHub</li>
+                    <li>Linux Commands</li>
+                    <li>VS Code</li>
+                    <li>IntelliJ Idea</li>
+                    
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Will be added soon...</p>
+        <div class="project-list">
+            <div class="project">
+                <h3>Project Title 1</h3>
+                <p>Brief description of the project.</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Project Title 2</h3>
+                <p>Brief description of the project.</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Connect with Me</h2>
+        <p>Feel free to reach out through any of the platforms below:</p>
+        <ul class="social-links">
+            <li><a href="https://www.linkedin.com/in/koushikkundu" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li><a href="https://github.com/koushikkundu" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.hackerrank.com/kouseek" target="_blank"><i class="fab fa-hackerrank"></i></a></li>
+            <li>
+                <a href="https://leetcode.com/kouscodes" target="_blank">
+                    <img src="leetcode.png" alt="LeetCode" style="width: 36px; height: 36px;">
+                </a>
+            </li>
+            <li><a href="https://twitter.com/thekoushikkundu" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="mailto:youremail@example.com"><i class="fas fa-envelope"></i></a></li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Koushik Kundu. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
 </html>
