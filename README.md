@@ -20,7 +20,7 @@ Here are some of the key skills I possess:
 
 - **Programming Languages**: C, C++, Java, Python, JavaScript
 - **Python Libraries**: NumPy, Pandas, Seaborn, Matplotlib, Scikit-learn
-- **Core Concepts**: Data Structures & Algorithms, Machine Learning, Operating Systems, Computer Networks, Database Management Systems
+- **Core Concepts**: Data Structures & Algorithms, Machine Learning, Operating Systems, Computer Networks, Database Management Systems, Theory of Computations
 - **Web Technologies & Database**: JDBC, JSP, Java Beans, MySQL
 - **Tools & Technologies**: Git & GitHub, Linux Commands, VS Code, IntelliJ IDEA
 
@@ -46,8 +46,8 @@ Feel free to reach out to me through any of the platforms below:
 - [GitHub](https://github.com/koushikkundu)
 - [HackerRank](https://www.hackerrank.com/kouseek)
 - [LeetCode](https://leetcode.com/kouscodes)
+- [Instagram](https://instagram.com/koushhhhhik)
 - [Twitter](https://twitter.com/thekoushikkundu)
-- Email: [youremail@example.com](mailto:youremail@example.com)
 
 ## Technologies Used
 
