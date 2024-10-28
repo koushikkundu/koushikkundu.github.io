@@ -45,8 +45,7 @@ Feel free to reach out to me through any of the platforms below:
 - [LinkedIn](https://www.linkedin.com/in/koushikkundu)
 - [GitHub](https://github.com/koushikkundu)
 - [HackerRank](https://www.hackerrank.com/kouseek)
-- [LeetCode](https://leetcode.com/kouscodes)
-- [Instagram](https://instagram.com/koushhhhhik)
+- [LeetCode](https://leetcode.com/koushiik)
 - [Twitter](https://twitter.com/thekoushikkundu)
 
 ## Technologies Used
@@ -58,10 +57,6 @@ This portfolio website is built using the following technologies:
 - JavaScript
 - Font Awesome for icons
 - Icons.bio for additional icons
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
